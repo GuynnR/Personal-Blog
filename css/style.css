@@ -9,8 +9,8 @@
     border: 2px solid yellow;
 }
 .box{
-    border: 1px solid red;
-    background: #F8FA9D;
+    border: 1px solid dodgerblue;
+    background: #ffffff;
     }
 .header{
     grid-area:hd;
