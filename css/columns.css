@@ -1,0 +1,27 @@
+.author {
+    float: left;
+    width: 20%;
+    position: absolute;
+    top: 34%;
+    background: #f8f8ff;
+}
+.authorcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.article1 {
+    float: right;
+    width: 75%;
+}
+.leftcolumn {
+    float: left;
+    width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.rightcolumn {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    background: #f8f8ff;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}

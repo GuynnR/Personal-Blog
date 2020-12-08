@@ -1,0 +1,96 @@
+.avatar {
+    width: 100%;
+    max-width:369px;
+}
+.bio {
+    font-weight: lighter;
+}
+.biop {
+    font-weight: lighter;
+}
+.button1 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button2 {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button3 {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.card {
+    background-color: #f8f8ff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    padding: 0 16px;
+}
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.currentschool {
+    font-weight: lighter;
+}
+.earth {
+    width: 100%;
+    max-width: 600px;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #f8f8ff;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.h2text {
+    display: grid;
+    grid-auto-rows: 25px;
+    border-style: solid;
+    font-family: "Franklin Gothic Medium";
+    text-align: center;
+}
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #f8f8ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+}
+.koko-li {
+    font-weight: bold;
+    font-style: italic;
+}
+.koko-ul {
+    list-style-type: disc;
+    display: flex;
+    flex-flow: column;
+    background: none;
+    overflow: visible;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

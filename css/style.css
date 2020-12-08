@@ -1,134 +1,26 @@
+@import "classes.css";
+@import "columns.css";
+@import "fa.css";
+
+@media screen and (max-width: 992px) {
+}
+@media screen and (min-width: 768px) {
+    body { float: left;}
+}
+@media screen and (min-width: 600px) {
+    body { min-width: 25%;}
+}
 body {
     font-family: Arial;
     padding: 20px;
     background: #f5fffa;
 }
 p {
-    font-weight: bold;
-}
-.author {
-
-    float: left;
-    width: 20%;
-    padding-left: -20px;
-    position: absolute;
-    top: 320px;
-    left: 28px;
-    background: #f8f8ff;
-}
-.authorcard {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.article1 {
-    float: right;
-    padding-left: 500px;
-    width: 75%;
-}
-.avatar {
-    width: 381px;
-    height: 215px;
-}
-.bio {
-font-weight: lighter;
-}
-.biop {
-font-weight: lighter;
+    color: #333333;
 }
 button {
     display: grid;
     -ms-grid-column-align: stretch;
-}
-.button1 {
-    background-color: blue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-.button2 {
-    background-color: dodgerblue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-.button3 {
-    background-color: lightskyblue;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-}
-.card {
-    background-color: #f8f8ff;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.container {
-    padding: 0 16px;
-}
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.currentschool {
-font-weight: lighter;
-}
-.earth {
-    width: 800px;
-}
-.fa {
-    font-size: 15px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #f8f8ff;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.h2text {
-    display: grid;
-    grid-auto-rows: 25px;
-    border-style: solid;
-    font-family: "Franklin Gothic Medium";
-    text-align: center;
-}
-.header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: #f8f8ff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.leftcolumn {
-    float: left;
-    width: 75%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 li {
     float: bottom;
@@ -143,42 +35,8 @@ li a {
 li a:hover {
     background-color: darkred;
 }
-.koko-li {
-    font-weight: bold;
-    font-style: italic;
-}
-.koko-ul {
-    list-style-type: disc;
-    display: flex;
-    flex-flow: column;
-    background: none;
-    overflow: visible;
-}
-.rightcolumn {
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    top: 322px;
-    right: 50px;
-    float: right;
-    width: 20%;
-    padding-left: 10px;
-    background: #f8f8ff;
-    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-@media screen and (max-width: 1080px) {
-    .leftcolumn, .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}
 .titleauthor {
-
+    color: #333333;
 }
 /* Nav Bar */
 ul {
