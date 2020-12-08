@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background: #b0b0b0;
+    background: #f5fffa;
 }
 p {
     font-weight: bold;
@@ -11,10 +11,10 @@ p {
     float: left;
     width: 20%;
     padding-left: -20px;
-    position: fixed;
-    top: 215px;
+    position: absolute;
+    top: 320px;
     left: 28px;
-    background: #dfdfdf;
+    background: #f8f8ff;
 }
 .authorcard {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -26,7 +26,7 @@ p {
 }
 .avatar {
     width: 381px;
-    height: 235px;
+    height: 215px;
 }
 .bio {
 font-weight: lighter;
@@ -34,11 +34,42 @@ font-weight: lighter;
 .biop {
 font-weight: lighter;
 }
+button {
+    display: grid;
+    -ms-grid-column-align: stretch;
+}
+.button1 {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button2 {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button3 {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
 .card {
-    background-color: #dfdfdf;
+    background-color: #f8f8ff;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: #111111;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .container {
     padding: 0 16px;
@@ -50,6 +81,9 @@ font-weight: lighter;
 }
 .currentschool {
 font-weight: lighter;
+}
+.earth {
+    width: 800px;
 }
 .fa {
     font-size: 15px;
@@ -73,8 +107,9 @@ font-weight: lighter;
 .footer {
     padding: 20px;
     text-align: center;
-    background: #dfdfdf;
+    background: #f8f8ff;
     margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .h2text {
     display: grid;
@@ -87,11 +122,13 @@ font-weight: lighter;
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: #dfdfdf;
+    background: #f8f8ff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .leftcolumn {
     float: left;
     width: 75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 li {
     float: bottom;
@@ -106,11 +143,26 @@ li a {
 li a:hover {
     background-color: darkred;
 }
+.koko-li {
+    font-weight: bold;
+    font-style: italic;
+}
+.koko-ul {
+    list-style-type: disc;
+    display: flex;
+    flex-flow: column;
+    background: none;
+    overflow: visible;
+}
 .rightcolumn {
+    position: fixed;
+    top: 322px;
+    right: 50px;
     float: right;
     width: 20%;
     padding-left: 20px;
-    background: #dfdfdf;
+    background: #f8f8ff;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
 }
 .row:after {
     content: "";
