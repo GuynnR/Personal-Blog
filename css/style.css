@@ -1,15 +1,17 @@
 @import "classes.css";
 @import "columns.css";
 @import "fa.css";
-
-@media screen and (max-width: 992px) {
-}
-@media screen and (min-width: 768px) {
-    body { float: left;}
-}
-@media screen and (min-width: 600px) {
-    body { min-width: 25%;}
-}
+/* Mobile */
+@media screen and (min-width: 400px) {
+    body, html {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: center;
+        font-style: bold;
+        padding-left: 20px;
+        font-size: .9em;
+    }
 body {
     font-family: Arial;
     padding: 20px;

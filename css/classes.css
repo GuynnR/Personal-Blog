@@ -1,3 +1,11 @@
+.articleS {
+    color: #333333;
+    text-transform: uppercase;
+}
+.articleB {
+    color: #333333;
+    text-transform: uppercase;
+}
 .avatar {
     width: 100%;
     max-width:369px;
@@ -40,6 +48,10 @@
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.color {
+    color: red;
+    text-transform: uppercase;
 }
 .container {
     padding: 0 16px;
